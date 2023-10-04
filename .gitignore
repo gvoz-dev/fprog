@@ -1,0 +1,30 @@
+# Байт-код Java
+*.class
+
+# Архивы
+*.jar
+*.zip
+*.rar
+*.tar.gz
+
+# Лог-файлы
+*.log
+*.log.gz
+
+# Maven
+target/
+
+# IntelliJ IDEA
+out/
+.idea/
+*.iml
+
+# VS Code
+*.project
+*.settings/
+
+# Windows
+Thumbs.db
+
+# Mac
+*.DS_Store

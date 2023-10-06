@@ -1,3 +1,6 @@
+# Racket
+*.bak
+
 # Байт-код Java
 *.class
 

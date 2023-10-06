@@ -5,8 +5,7 @@
 ## Содержание
 
 1. [Введение в функциональное программирование](/book/chapter1/CHAPTER_1.md)
-2. [Основы программирования на Racket](README.md)
-   1. [Среда DrRacket, REPL](README.md)
+2. [Основы программирования на Racket](/book/chapter2/CHAPTER_2.md)
 
 ## Литература
 
@@ -22,3 +21,4 @@
 ## Электронные ресурсы
 
 1. [Журнал "*Практика функционального программирования*".](https://fprog.ru/)
+2. [Книга "*Beau­tiful Racket*".](https://beautifulracket.com/)

@@ -6,6 +6,7 @@
 
 1. [Введение в функциональное программирование](/book/chapter1/CHAPTER_1.md)
 2. [Основы программирования на Racket](/book/chapter2/CHAPTER_2.md)
+3. [Основы программирования на Scala](/book/chapter4/CHAPTER_4.md)
 
 ## Литература
 

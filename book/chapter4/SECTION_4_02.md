@@ -196,6 +196,20 @@ println(s"Hello, $name")
 
 Выражение s"Hello, $name" - обрабатываемый строковый литерал. Перед открывающей кавычкой стоит буква s, а после знака $ в обрабатываемом строковом литерале можно указать любое выражение.
 
+У строк есть множество полезных методов:
+
+```scala
+val name = " Roman Gvozdev "
+val tName = name.trim // "Roman Gvozdev"
+tName.split(" ") // Array("Roman", "Gvozdev")
+tName.charAt(0) // 'R'
+tName(0) // 'R'
+tName.contains("Rom") // true
+tName.substring(0, 5) // "Roman"
+tName.take(5) // "Roman"
+tName.drop(6) // "Gvozdev"
+```
+
 ## BigInt и BigDecimal
 
 Числовые типы, указанные выше, имеют ограничения по диапазону значений и точности.
@@ -206,5 +220,21 @@ val bi: BigInt = BigInt(Long.MaxValue) * 2 // нет переполнения
 val bd: BigDecimal = BigDecimal(Double.MaxValue) * 2 // нет переполнения
 ```
 
+## Приоритет операций
+
+```
+()[]
+!~
+* / %
++ -
+:
+< <= > >=
+== !=
+&
+^
+|
+(буквы, $, _)
+```
+
 ---
-Далее
+[Далее](SECTION_4_03.md)
